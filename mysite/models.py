@@ -11,4 +11,4 @@ class Comment(models.Model):
     content_list = models.ForeignKey(MainContent, on_delete=models.CASCADE)
     content = models.TextField()
     create_date = models.DateTimeField(auto_now_add=True)
-    momdify_date = models.DateTimeField(auto_now=True)
+    modify_date = models.DateTimeField(auto_now=True)
